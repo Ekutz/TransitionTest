@@ -1,0 +1,17 @@
+#EXTM3U
+#EXT-X-INDEPENDENT-SEGMENTS
+#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",NAME="English",LANGUAGE="en",URI="https://wldv2.kihnoframe.com/VideoGetVTT?video_id=1047284056&country_code=en&token=TlzdLvtehp59or2Fuf0D8/60gIuksX0jAetXWp8kdJU=",DEFAULT=NO,AUTOSELECT=YES
+#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",NAME="한국어",LANGUAGE="ko",URI="https://github.com/Ekutz/TransitionTest/blob/master/kor_track_BP_21.vtt",DEFAULT=NO,AUTOSELECT=YES
+#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",NAME="中文",LANGUAGE="cn",URI="https://wldv2.kihnoframe.com/VideoGetVTT?video_id=1047284056&country_code=cn&token=TlzdLvtehp59or2Fuf0D8/60gIuksX0jAetXWp8kdJU=",DEFAULT=NO,AUTOSELECT=YES
+
+
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio_group",NAME="HLS Audio Media",LANGUAGE="en",URI="https://wldv2.kihnoframe.com/VideoGetAudio?video_id=1047284056&token=TlzdLvtehp59or2Fuf0D8/60gIuksX0jAetXWp8kdJU=",DEFAULT=YES,AUTOSELECT=YES
+
+#EXT-X-STREAM-INF:BANDWIDTH=6394897,AVERAGE-BANDWIDTH=5846663,CODECS="avc1.4D4029,mp4a.40.2",RESOLUTION=1920x1080,AUDIO="audio_group",SUBTITLES="subs",CLOSED-CAPTIONS=NONE,FRAME-RATE=29.97
+https://wldv2.kihnoframe.com/VideoGetDetail?video_id=1047284056&quality_id=88f4e293-af82-4cb9-aed1-1f0dd12fb361&height=1080&token=TlzdLvtehp59or2Fuf0D8/60gIuksX0jAetXWp8kdJU=
+#EXT-X-STREAM-INF:BANDWIDTH=3536091,AVERAGE-BANDWIDTH=3265864,CODECS="avc1.4D4029,mp4a.40.2",RESOLUTION=1280x720,AUDIO="audio_group",SUBTITLES="subs",CLOSED-CAPTIONS=NONE,FRAME-RATE=29.97
+https://wldv2.kihnoframe.com/VideoGetDetail?video_id=1047284056&quality_id=950b5103-68a9-495c-922b-ed3864ac63af&height=720&token=TlzdLvtehp59or2Fuf0D8/60gIuksX0jAetXWp8kdJU=
+#EXT-X-STREAM-INF:BANDWIDTH=2347088,AVERAGE-BANDWIDTH=2236606,CODECS="avc1.4D4029,mp4a.40.2",RESOLUTION=960x540,AUDIO="audio_group",SUBTITLES="subs",CLOSED-CAPTIONS=NONE,FRAME-RATE=29.97
+https://wldv2.kihnoframe.com/VideoGetDetail?video_id=1047284056&quality_id=e23c99d7-604e-4660-97ce-aa61c99b4128&height=540&token=TlzdLvtehp59or2Fuf0D8/60gIuksX0jAetXWp8kdJU=
+#EXT-X-STREAM-INF:BANDWIDTH=1768829,AVERAGE-BANDWIDTH=1721978,CODECS="avc1.4D4029,mp4a.40.2",RESOLUTION=640x360,AUDIO="audio_group",SUBTITLES="subs",CLOSED-CAPTIONS=NONE,FRAME-RATE=29.97
+https://wldv2.kihnoframe.com/VideoGetDetail?video_id=1047284056&quality_id=735b8042-00c7-4cfc-aafb-d395db8438e4&height=360&token=TlzdLvtehp59or2Fuf0D8/60gIuksX0jAetXWp8kdJU=
